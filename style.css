@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(30, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 14px;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+p>I{
+    font-size: 16px;
+    color: #100b60;
+}
